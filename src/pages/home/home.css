@@ -1,0 +1,7 @@
+.home{
+ flex: 4;
+}
+.homeWidgests{
+    display: flex;
+    margin: 20px;
+}
