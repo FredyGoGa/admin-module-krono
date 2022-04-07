@@ -3,4 +3,7 @@
     margin-top: 10;
   
 }
-
+.link{
+    color: inherit;
+    text-decoration: none;
+}
