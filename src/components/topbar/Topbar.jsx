@@ -7,7 +7,7 @@ export default function Topbar() {
     <div className="Topbar">
        <div className="topbarWrapper">
          <div className="topLeft">
-             <span className="logo">Kronos Admin</span>
+             <span className="logo">KRONOS-ADMIN</span>
          </div>
          <div className="topRight">
            
