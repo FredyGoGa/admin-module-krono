@@ -17,34 +17,33 @@ import Product from "./pages/ProductsList/Product";
  function App() {
   return (
     <Router>
-
         <Topbar/>
          <div className="container">
          <Sidebar/>
          <Switch>
             <Route exact path="/">
                <Home/>
-            </Route> 
+            </Route>
             <Route path="/users">
                <UserList/>
-            </Route>  
+            </Route>
             <Route path="/user/:userId">
                <User/>
-            </Route>    
+            </Route>
             <Route path="/newUser">
                <NewUser />
             </Route>
             <Route path="/products">
                <Product />
             </Route>
-                   
+
          </Switch>
-         
-         
+
+
            </div>
-    
+
     </Router>
-  
+
   );
 }
 
